@@ -1,1 +1,18 @@
-// TODO
+.header {
+  width: auto;
+  background-color: var(--gray-800);
+}
+
+.container {
+  width: auto;
+  max-width: 1020px;
+  margin: 0 auto;
+  height: 105px;
+
+  display: flex;
+  align-items: center;
+
+  a {
+    display: inline-block;
+  }
+}
